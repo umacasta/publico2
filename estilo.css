@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap');
+
+body {
+    background-image: url('./img/fondo-casino.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #e0f2e9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

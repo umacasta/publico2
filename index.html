@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <title>casino pixel</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/Imagen_de_WhatsApp_2025-01-14_a_las_21.36.26_ef1bf932-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="./img/337b59eb68bbf17d9741f136adb4af13-removebg-preview.png" type="image/x-icon">
+    <!-- Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1863041204266352');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1863041204266352&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+    <header class="logo animate__animated animate__flip">
+        <img src="./img/3924728_12628-removebg-preview.png" alt="logo casino">
+    </header>
+
+    <main>
+        <section class="main-title flip-card">
+            <p>Bienvenidos<br>
+            Tu cajero de confianza <br>
+            carga tus fichas y retira tu dinero al instante</p>
+        </section>
+
+        <section class="whatsapp">
+            <button class="button" id="whatsappButton">
+                <span>Whatsapp</span>
+                <img src="./img/whatsapp_5968967.png" alt="Whatsapp">
+            </button>
+        </section> 
+
+        <script>
+        document.getElementById("whatsappButton").addEventListener("click", function() {
+            fbq('track', 'Purchase', {value: 3000, currency: 'ARS'});
+
+            const telefono = "+5493515737969";
+            const mensaje = "Buenas quiero crear un usuario , Mi nombre es : .";
+            const link = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+            window.open(link, '_blank');
+        });
+        </script>
+    </main>
+
+    <div class="info">
+        <h2>Mínimo de carga: $3000</h2>
+        <div class="divider"></div>
+        <p>🚀 Recargá saldo al instante con nuestro sistema verificado.</p>
+        <p>🕒 Atención las 24hs, los 7 días de la semana.</p>
+        <p>💳 Transferencias rápidas y seguras.</p>
+
+        <div class="warning-box">
+            <p>🚫 PROHIBIDO PARA MENORES DE 18 AÑOS 🚫</p>
+            <p>El juego conlleva riesgos financieros. Juega con responsabilidad.</p>
+        </div>
+    </div>
+
+    <script src="ofusco.js"></script>
+</body>
+</html>
